@@ -67,3 +67,10 @@ or this:
 A `CANCEL_REQUEST` just instructs the nostr relays to stop broadcasting a previous `OPEN_REQUEST`. This preserves the privacy of the borrower and the lender. Only the borrower knows if the deal was accepted, and nobody knows who the lender is if there is one.
 
 
+## legal
+this is very simply freedom of speech
+
+# TODO
+hella fun stuff to do:
+- do we want some "blips" or something to make this into a real protocol (if that's even necessary)?
+- 
