@@ -9,7 +9,7 @@ messages are published using the [nostr protocol](https://github.com/nostr-proto
 
 each message should have one of the following types: `OPEN_REQUEST`, `COMMENT`, `CANCEL_REQUEST`, (more to be added!).
 
-## the basic flow
+## basic flow:
 - potential borrower posts an `OPEN_REQUEST` stating their terms (this can be public or privately sent to select individuals)
 - other users can publish an `COMMENT` message rating the quality of other users or the quality of their particular debt offerings
 - potential lender contacts borrower (can be through nostr-native private encrypted messaging or email or telegram or anything)
