@@ -7,7 +7,7 @@ there should be a transparent system for borrowers and lenders to find each othe
 ## how it works: messages, trust, and reputation
 messages are published using the [nostr protocol](https://github.com/nostr-protocol/nostr). nostr relays gather the messages and present them to users. anybody can be a nostr relay and it is expected that several different websites emerge, each run by a different relay, each with a different style. for example some relays may be free and broadcast every request, whereas others may be more selective and only broadcast requests from borrowers who pay a fee. 
 
-each message should have one of the following types: `OPEN_REQUEST`, `COMMENT`, `CLOSE_LOAN_REQUEST`, (more to be added!).
+each message should have one of the following types: `OPEN_REQUEST`, `COMMENT`, `CANCEL_REQUEST`, (more to be added!).
 
 the basic flow:
 - potential borrower posts an `OPEN_REQUEST` stating their terms (this can be public or privately sent to select individuals)
