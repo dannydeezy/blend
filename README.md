@@ -14,6 +14,7 @@ each message should have one of the following types: `OPEN_REQUEST`, `COMMENT`, 
 - other users can publish an `COMMENT` message rating the quality of other users or the quality of their particular debt offerings
 - potential lender contacts borrower (can be through nostr-native private encrypted messaging or email or telegram or anything)
 - potential borrower posts a `CANCEL_REQUEST` to take down their listing
+- everything else is coordinated privately between lender and borrow, and they can publish public positive or negative `COMMENT` messages about the other one at any time
 
 #### OPEN_REQUEST
 a potential borrower will submit a message of type `OPEN_REQUEST` that will look something like this:
