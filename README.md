@@ -14,7 +14,7 @@ each message should have one of the following types: `OPEN_REQUEST`, `COMMENT`, 
 - other users can publish an `COMMENT` message rating the quality of other users or the quality of their particular debt offerings
 - potential lender contacts borrower (can be through nostr-native private encrypted messaging or email or telegram or anything)
 - potential borrower posts a `CANCEL_REQUEST` to take down their listing
-- everything else is coordinated privately between lender and borrow, and they can publish public positive or negative `COMMENT` messages about the other one at any time
+- everything else is coordinated privately between lender and borrow, and they can publish public positive or negative `COMMENT` messages about the other one at any time. it is expected that standards will emerge where the borrower and lender request signatures from each other attesting to the terms of the deal.
 
 #### OPEN_REQUEST
 a potential borrower will submit a message of type `OPEN_REQUEST` that will look something like this:
@@ -73,5 +73,6 @@ this is very simply freedom of speech
 
 # TODO
 hella fun stuff to do:
+- help poke holes in the protocol and make it better!
 - do we want some "blips" or something to make this into a real protocol (if that's even necessary)?
-- 
+- who wants to run the first relay?
